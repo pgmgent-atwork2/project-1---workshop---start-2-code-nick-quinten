@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Magic Eight Ball</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="container">
-    <div class="eight-ball">
-      <div class="question">
-        <p>Ask me a yes or no question:</p>
-        <input type="text" id="question-input" placeholder="Type your question here...">
-        <button class="button" onclick="shake()">Shake</button>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Magic Eight Ball</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="eight-ball">
+        <div class="question">
+          <p>Ask me a yes or no question:</p>
+          <input
+            type="text"
+            id="question-input"
+            placeholder="Type your question here..."
+          />
+          <button class="button" onclick="shake()">Shake</button>
+        </div>
+        <div class="answer">
+          <p></p>
+        </div>
       </div>
-      <div class="answer">
-        <p></p>
-      </div>
-      
     </div>
-  </div>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
