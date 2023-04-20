@@ -29,20 +29,20 @@
 }
 
 .eight-ball .question input {
-  font-size: 1.2em;
-  padding: 5px;
+  font-size: 1.2rem;
+  padding: 0.3125rem;
   border: none;
-  border-radius: 5px;
-  margin: 10px 0;
+  border-radius: 0.3125rem;
+  margin: 0.625rem 0;
 }
 
 .button {
-  margin-top: 10px;
-  font-size: 1em;
-  padding: 5px 10px;
+  margin-top: 0.625rem;
+  font-size: 1rem;
+  padding: 0.3125rem 0.625rem;
   background-color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -54,6 +54,6 @@
 
 .eight-ball .answer p {
   margin: 0;
-  font-size: 1.2em;
-  margin-top: 20px;
+  font-size: 1.2rem;
+  margin-top: 1.25rem;
 }
