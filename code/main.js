@@ -23,7 +23,7 @@ const awnsers = [
 function shake() {
   const questionElem = document.querySelector("#question-input");
   const answerElem = document.querySelector(".eight-ball .answer p");
-  const awnserIndex = Math.floor(Math.random() * messages.length);
+  const awnserIndex = Math.floor(Math.random() * awnsers.length);
   const awnser = awnsers[awnserIndex];
 
   if (questionElem.value.trim() !== "") {
