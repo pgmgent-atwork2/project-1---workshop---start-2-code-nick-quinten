@@ -1,4 +1,24 @@
+*{
+  background-color: black;
+  color:white;
+  text-align: center;
+  padding: 
+  1rem;
+}
 img{
-  height: 36rem
+  height: 36rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: red;
+  text-decoration: none;
 }
