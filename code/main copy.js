@@ -1,4 +1,4 @@
-const messages = [
+const awnsers = [
   "It is certain.",
   "It is decidedly so.",
   "Without a doubt.",
@@ -17,19 +17,17 @@ const messages = [
   "Don't count on it.",
   "Outlook not so good.",
   "My sources say no.",
-  "Very doubtful."
+  "Very doubtful.",
 ];
 
 function shake() {
-  const questionElem = document.querySelector('#question-input');
-  const answerElem = document.querySelector('.eight-ball .answer p');
-  const messageIndex = Math.floor(Math.random() * messages.length);
-  const message = messages[messageIndex];
+  const questionElem = document.querySelector("#question-input");
+  const answerElem = document.querySelector(".eight-ball .answer p");
+  const awnserIndex = Math.floor(Math.random() * messages.length);
+  const awnser = awnsers[awnserIndex];
 
-  if (questionElem.value.trim() !== '') {
-    answerElem.innerText = message;
-    questionElem.value = '';
+  if (questionElem.value.trim() !== "") {
+    answerElem.innerText = awnser;
+    questionElem.value = "";
   }
 }
-
-
