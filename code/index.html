@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Magic Eight Ball</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
@@ -10,20 +12,19 @@
     <div class="container">
       <div class="eight-ball">
         <div class="question">
-          <p>Ask me a yes or no question:</p>
+          <p>Stel een ja-nee vraag:</p>
           <input
             type="text"
             id="question-input"
-            placeholder="Type your question here..."
+            placeholder="Typ hier je vraag..."
           />
-          <button class="button" onclick="shake()">Shake</button>
+          <button class="button" onclick="shake()">Schud</button>
         </div>
         <div class="answer">
           <p></p>
         </div>
       </div>
     </div>
-
     <script src="main.js"></script>
   </body>
 </html>
